@@ -39,7 +39,6 @@ class RegisteredUserController extends Controller
         // dd($request->all());
         // die;
         $user = User::create([
-            'nis' => $request->nis,
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
