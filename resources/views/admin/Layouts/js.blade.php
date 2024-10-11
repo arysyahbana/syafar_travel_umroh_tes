@@ -7,7 +7,7 @@
  <!-- jQuery -->
  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
  <script src="https://cdn.datatables.net/2.1.0/js/dataTables.js"></script>
- <script>
+ {{-- <script>
      $(document).ready(function() {
          $('#datatable').DataTable();
      });
@@ -26,7 +26,7 @@
      $(document).ready(function() {
          $('#ekskul5').DataTable();
      });
- </script>
+ </script> --}}
  <script>
      var ctx = document.getElementById("chart-bars").getContext("2d");
 
