@@ -7,8 +7,24 @@
     },
     "routes": [
         {
-            "src": "/dist/assets/(.*)",
-            "dest": "/public/dist/assets/"
+            "src": "/dist/assets/img(.*)",
+            "dest": "/public/dist/assets/img/"
+        },
+        {
+            "src": "/dist/assets/css(.*)",
+            "dest": "/public/dist/assets/css/"
+        },
+        {
+            "src": "/dist/assets/fonts(.*)",
+            "dest": "/public/dist/assets/fonts/"
+        },
+        {
+            "src": "/dist/assets/js(.*)",
+            "dest": "/public/dist/assets/js/"
+        },
+        {
+            "src": "/dist/assets/scss(.*)",
+            "dest": "/public/dist/assets/scss/"
         },
         {
             "src": "/(.*)",
